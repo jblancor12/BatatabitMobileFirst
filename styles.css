@@ -145,7 +145,7 @@ main{
     margin: 0 auto;
     margin-bottom: 50px;
 
-    background-image: url(/assets/img/Bitcoin.svg);
+    background-image: url('/assets/img/Bitcoin.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -482,6 +482,7 @@ main{
     min-width: 320px;
     padding-bottom: 70px;
     text-align: center;
+    background-color: var(--just-white);
 }
 
 .plans-title{
